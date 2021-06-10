@@ -1,0 +1,33 @@
+/* Profile Layout */
+.profile {
+    padding: 1em 3em;
+    border-bottom: 1px solid $light-gray;
+
+    &__picture {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    &__buttons {
+        text-align: end;
+    }
+
+    p {
+        color: $granite-gray;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .profile__picture {
+            max-width: 80px;
+            max-height: 80px;
+    }
+
+    h3 {
+        font-size: $medium;
+    }
+
+    p {
+        font-size: $x-small;
+    }
+}

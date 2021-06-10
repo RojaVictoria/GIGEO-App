@@ -1,0 +1,27 @@
+/* Buttons component */
+button {
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: $medium;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: $white;
+}
+
+.button-blue {
+    background-color: $riptide; 
+    &:hover {
+        background-color: $neptune;
+    }
+}
+
+.button-red {
+    background-color: $burnt-sienna; 
+    &:hover {
+        background-color: $fuzzy-brown;
+    }
+}

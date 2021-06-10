@@ -1,0 +1,13 @@
+/* Base Typography*/
+h2 {
+    font-family: $poppins;
+}
+
+h1, h3, h4, h5, h6 {
+    font-family: $montserrat;
+    font-weight: $bold;
+}
+
+p, a {
+    font-family: $open-sans;
+}    

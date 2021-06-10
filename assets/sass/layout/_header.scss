@@ -1,0 +1,14 @@
+/* Header Layout */
+.header {
+    background: url('../../../assets/img/image-banner.png');
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (min-width: 768px) { 
+    .header {
+        height: 200px;
+    }
+}
